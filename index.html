@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-logo">
+                SkyTech
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="tools.html">Tools</a>
+                <a href="about.html">About</a>
+                <a href="faq.html">FAQ</a>
+            </div>
+            <div class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+        </nav>
+    </header>
+    <main>
+        <section class="hero-section">
+            <h2>Welcome to Our Site</h2>
+            <p>Convert currencies instantly, track exchange rates, and explore our tools to make smarter financial decisions worldwide.</p>
+            <button class="btn">Explore Tools</button>
+        </section>
+
+        <section class="tools-section">
+            <div class="container">
+                <h2>Our Tools</h2>
+                <p>Enhance your daily life with these powerful tools.</p>
+
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <img src="currency.jpg" alt="Currency Convatore">
+                    <h3>Currency Convater</h3>
+                    <p>Quickly convert currencies from all over the world with real-time exchange rates.</p>
+                    <a href="currency.html">Explore</a>
+                </div>
+                <div class="tool-card">
+                    <img src="password.jpg" alt="password Generator">
+                    <h3>Password Generator</h3>
+                    <p>Create strong & secure passwords instantly fully customizable for complexity.</p>
+                    <a href="Password.html">Explore</a>
+                </div>
+                <div class="tool-card">
+                    <img src="text.jpg" alt="Text Formater">
+                    <h3>Text Formater</h3>
+                    <p>Easily transform your text to lowercase, UPPERCASE, or Title Case in just one click.</p>
+                    <a href="formatter.html">Expolre</a>
+                </div>
+                <div class="tool-card">
+                    <img src="QRcode.jpg" alt="QR Code Generator">
+                    <h3>QR Generator</h3>
+                    <p>Generate custom QR codes for any text, URL, or contact info in seconds.</p>
+                    <a href="QR.html">Expolre</a>
+                </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="primary">
+            &copy; 2025 SkyTech. All rights reserved.
+            <span>Designed & Devloped by <strong>Sachin Yadav</strong></span>
+        </div>
+        <div class="secondary">
+            <ul>
+                <li><a href=""><img src="github.png"></a></li>
+                <li><a href="#"><img src="discord.png"></a></li>
+                <li><a href="#"><img src="youtube.png"></a></li>
+                <li><a href="#"><img src="insta.png"></a></li>
+                <li><a href="#"><img src="fackbook.png"></a></li>
+                
+            </ul>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script>
+        const btn = document.querySelector(".btn");
+        btn.addEventListener("click", () => {
+        document.querySelector(".tools-section").scrollIntoView({ behavior: "smooth" });
+        });
+    </script>
+</body>
+</html>

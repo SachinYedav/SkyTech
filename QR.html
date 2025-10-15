@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Genratore</title>
+    <link rel="stylesheet" href="QR.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-logo">
+                SkyTech
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="tools.html">Tools</a>
+                <a href="about.html">About</a>
+                <a href="faq.html">FAQ</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="generator"> 
+                <h1>QR Generator</h1>
+                <input type="text" placeholder="Enter Text or URL"id="text-input">
+                <div class="buttons">
+                    <button id="generate">Generate</button>
+                    <button id="reset">Reset</button>
+                </div>
+                <div id="code">QR Code</div>
+                <button id="back">Back</button>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="primary">
+            &copy; 2025 SkyTech. All rights reserved.
+            <span>Designed & Devloped by <strong>Sachin Yadav</strong></span>
+        </div>
+        <div class="secondary">
+            <ul>
+                <li><a href=""><img src="github.png"></a></li>
+                <li><a href="#"><img src="discord.png"></a></li>
+                <li><a href="#"><img src="youtube.png"></a></li>
+                <li><a href="#"><img src="insta.png"></a></li>
+                <li><a href="#"><img src="fackbook.png"></a></li>
+                
+            </ul>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/qrcodejs/qrcode.min.js"></script>
+    <script src="QR.js"></script>
+</body>
+</html>
